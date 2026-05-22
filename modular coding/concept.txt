@@ -1,0 +1,36 @@
+What is Modular Coding?
+
+Modular coding means: splitting code into multiple organized files/modules
+instead of writing everything in: one huge file
+
+WHY IMPORTANT?
+
+Suppose your project grows:
+
+app.py = 5000 lines
+
+It becomes:
+
+difficult to debug
+difficult to maintain
+confusing
+unprofessional
+
+So developers divide code into: modules
+
+SIMPLE UNDERSTANDING
+WITHOUT MODULAR CODING
+
+Everything in one file
+
+WITH MODULAR CODING
+Separate files for separate responsibilities
+
+RESPONSIBILITIES
+File	Responsibility
+main.py	program entry
+ollama_client.py	AI API calls
+pdf_reader.py	PDF extraction
+json_handler.py	JSON storage
+models.py	OOP classes
+utils.py	helper functions

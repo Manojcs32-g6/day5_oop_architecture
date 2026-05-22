@@ -1,0 +1,83 @@
+The 4 major pillars of OOP are:
+| Concept       | Purpose                         |
+| ------------- | ------------------------------- |
+| Inheritance   | reuse code                      |
+| Encapsulation | protect/control data            |
+| Polymorphism  | same method, different behavior |
+| Abstraction   | hide unnecessary complexity     |
+
+
+1. INHERITANCE
+child class gets properties/methods from parent class
+
+REAL-WORLD EXAMPLE
+Animal
+
+has:
+
+eat()
+sleep()
+
+Now:
+
+Dog
+Cat
+
+can inherit these.
+
+No need to rewrite same code.
+
+2. ENCAPSULATION
+protecting object data / controlling direct access
+
+PYTHON ENCAPSULATION
+
+Use: __ before variable.
+
+EXAMPLE: self.__balance = 5000 here __balance becomes private variable.
+it prevents direct  modification from outside
+
+WRONG ACCESS
+b1.__balance Usually gives error.
+
+CORRECT WAY
+Use methods:
+
+show_balance()
+deposit()
+withdraw()
+
+3. POLYMORPHISM
+same method name → different behavior
+
+if sound(self) for dog is bark
+and for sounf(self) for cat is meow
+
+here sound() is same method but behavior is different
+
+4. ABSTRACTION
+hide internal complexity
+
+REAL-WORLD EXAMPLE
+
+You drive car using:
+
+steering
+accelerator
+
+You do NOT need to know:
+
+engine combustion
+internal mechanics
+
+That hidden complexity is: abstraction
+
+Parent Class
+      ↓
+Child Classes
+      ↓
+Methods
+      ↓
+Encapsulation
+      ↓
+Large scalable systems
